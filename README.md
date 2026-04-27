@@ -104,7 +104,7 @@ streamlit run app.py
 ## Author
 
 **Lavanya Dive**
-*BSc Data Science Student
-*AI | Data Science | Recommendation Systems | GenAI | HITL | RAG
+* BSc Data Science Student
+* AI | Data Science | Recommendation Systems | GenAI | HITL | RAG
 
 ---

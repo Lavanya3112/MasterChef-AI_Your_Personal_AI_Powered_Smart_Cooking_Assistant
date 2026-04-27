@@ -59,25 +59,6 @@ I have diabetes, can I eat Dal Rice every day?
 
 ---
 
-## Project Structure
-
-MasterChef-AI/
-
-├── app.py
-├── dishes.csv
-├── requirements.txt
-├── .env
-├── .gitignore
-├── README.md
-
-└── images/
-  ├── dal_chawal.png
-  ├── paneer_bhaji.png
-  ├── brinjal_bhaji_chapati.png
-  └── ...
-
----
-
 ## Installation
 
 ### Clone Repository

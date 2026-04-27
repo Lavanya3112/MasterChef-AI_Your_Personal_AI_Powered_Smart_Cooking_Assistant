@@ -45,8 +45,8 @@ if theme == "Dark Mode":
     accent_color = "#F4A300"
 
 elif theme == "Light Mode":
-    bg_color = "#FEF4F5"
-    card_color ="#2A2D3E"
+    bg_color = "#FFF8F0"
+    card_color = "#F5E6D3"
     text_color = "#1F2937"
     button_gradient = "linear-gradient(90deg, #E85D04, #F4A300)"
     accent_color = "#F59E0B"
@@ -82,6 +82,27 @@ st.markdown(f"""
     background-color: {bg_color};
 }}
 
+/* Main Text */
+p {{
+    color: {text_color} !important;
+}}
+
+/* Headings */
+h1, h2, h3, h4 {{
+    color: {text_color} !important;
+    font-weight: 700;
+}}
+
+/* Recipe Expander Content */
+.streamlit-expanderContent {{
+    color: {text_color} !important;
+}}
+
+/* Success / Info boxes */
+.stSuccess, .stInfo, .stWarning {{
+    color: {text_color} !important;
+}}
+
 /* Block Container */
 section[data-testid="stSidebar"],
 div[data-testid="stAppViewContainer"],
@@ -97,17 +118,17 @@ p {{
 /* Premium Cards */
 .card {{
     background-color: {card_color};
+    color: {text_color};
     border: 1px solid rgba(255,255,255,0.08);
     padding: 22px;
     border-radius: 18px;
     margin-bottom: 18px;
-    backdrop-filter: blur(12px);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.18);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.10);
 }}
 
 /* Form Labels */
 label, .stSelectbox label, .stTextInput label {{
-    color: {text_color} !important;;
+    color: {text_color} !important;
     font-weight: 600;
 }}
 
